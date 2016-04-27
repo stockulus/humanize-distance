@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stockulus/hunanize-distance.git"
+    "url": "git+https://github.com/stockulus/humanize-distance.git"
   },
   "keywords": [
     "humanize",
@@ -23,9 +23,9 @@
   "author": "Christoph Stock @stockulus",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stockulus/hunanize-distance/issues"
+    "url": "https://github.com/stockulus/humanize-distance/issues"
   },
-  "homepage": "https://github.com/stockulus/hunanize-distance#readme",
+  "homepage": "https://github.com/stockulus/humanize-distance#readme",
   "dependencies": {
     "intl": "1.1.0"
   },
