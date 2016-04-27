@@ -1,6 +1,6 @@
 {
   "name": "hunanize-distance",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "humanize the distance between 2 Points",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/stockulus/hunanize-distance#readme",
   "dependencies": {
-    "intl": "^1.1.0"
+    "intl": "1.1.0"
   },
   "devDependencies": {
     "faucet": "0.0.1",
