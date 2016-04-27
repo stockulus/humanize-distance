@@ -32,19 +32,13 @@ module.exports = function humanizeDistance (pointA, pointB, locale, unitSystem) 
     : {distance: hav * 3960, unit: 'mi', smallUnit: 'yd', factor: 1760}
 
   const formatter = new Intl.NumberFormat(locale, { maximumSignificantDigits: 2 })
-  return result.distance < 1
-    ? `${formatter.format(result.distance * result.factor)} ${result.smallUnit}`
-    : `${formatter.format(result.distance)} ${result.unit}`
-}
+  if (result.distance < 0.9) {
+    let distance = result.distance * result.factor
+    if (distance < 50) return `< 50 ${result.smallUnit}`
 
-/*
-function humanizeMetric(distance) {
-  if (distance < 1) {
-    distance = distance * 1000
-
-    if (distance < 100) {
-      return '< 100m'
-    }
+    distance = Math.round(distance / 50) * 50
+    return `${formatter.format(distance)} ${result.smallUnit}`
   }
+
+  return `${formatter.format(result.distance)} ${result.unit}`
 }
-*/
