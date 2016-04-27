@@ -13,6 +13,7 @@ npm test
 ## usage
 
 ```js
+
 const humanizeDistance = require('hunanize-distance')
 
 console.log(humanizeDistance(
@@ -27,6 +28,7 @@ console.log(humanizeDistance(
   {latitude: 50.9486184, longitude: 6.9426425},
   'en-US',
   'us'))
+// 550 yd
 
 ```
 

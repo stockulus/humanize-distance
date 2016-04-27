@@ -1,6 +1,6 @@
 {
-  "name": "hunanize-distance",
-  "version": "1.0.1",
+  "name": "humanize-distance",
+  "version": "1.0.0",
   "description": "humanize the distance between 2 Points",
   "main": "index.js",
   "scripts": {
