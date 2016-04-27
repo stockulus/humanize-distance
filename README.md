@@ -5,7 +5,7 @@ Calculates a humanized distance between 2 Points (longitude, latitude)
 Example outputs: < 50m, 450m, 750yd, 0.9 mi, 2,8 km
 
 ## install
-npm i hunanize-distance --save
+npm i humanize-distance --save
 
 ## test
 npm test
@@ -14,7 +14,7 @@ npm test
 
 ```js
 
-const humanizeDistance = require('hunanize-distance')
+const humanizeDistance = require('humanize-distance')
 
 console.log(humanizeDistance(
   {latitude: 50.95, longitude: 6.91},
