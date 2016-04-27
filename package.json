@@ -1,6 +1,6 @@
 {
   "name": "hunanize-distance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "humanize the distance between 2 Points",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "keywords": [
     "humanize",
     "distance",
+    "points",
     "km",
     "meter",
     "miles",
