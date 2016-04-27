@@ -1,0 +1,36 @@
+{
+  "name": "hunanize-distance",
+  "version": "0.1.0",
+  "description": "humanize the distance between 2 Points",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/standard/bin/cmd.js && ./node_modules/tape/bin/tape ./tests/**/*.js | ./node_modules/faucet/bin/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stockulus/hunanize-distance.git"
+  },
+  "keywords": [
+    "humanize",
+    "distance",
+    "km",
+    "meter",
+    "miles",
+    "yards",
+    "haversine"
+  ],
+  "author": "Christoph Stock @stockulus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stockulus/hunanize-distance/issues"
+  },
+  "homepage": "https://github.com/stockulus/hunanize-distance#readme",
+  "dependencies": {
+    "intl": "^1.1.0"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "standard": "6.0.8",
+    "tape": "4.5.1"
+  }
+}
