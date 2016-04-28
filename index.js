@@ -34,7 +34,7 @@ module.exports = function humanizeDistance (pointA, pointB, locale, unitSystem) 
   const formatter = new Intl.NumberFormat(locale, { maximumSignificantDigits: 2 })
   if (result.distance < 0.9) {
     let distance = result.distance * result.factor
-    if (distance < 50) return `< 50 ${result.smallUnit}`
+    if (distance < 40) return `< 50 ${result.smallUnit}`
 
     distance = Math.round(distance / 50) * 50
     return `${formatter.format(distance)} ${result.smallUnit}`
