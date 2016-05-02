@@ -28,11 +28,11 @@ module.exports = function humanizeDistance (pointA, pointB, locale, unitSystem) 
   const hav = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
 
   const result = unitSystem === 'metric'
-    ? {distance: hav * 6373, unit: 'km', smallUnit: 'm', factor: 1000}
-    : {distance: hav * 3960, unit: 'mi', smallUnit: 'yd', factor: 1760}
+    ? {distance: hav * 6373, unit: 'km', smallUnit: 'm', factor: 1000, smallBorder: 0.9}
+    : {distance: hav * 3960, unit: 'mi', smallUnit: 'yd', factor: 1760, smallBorder: 0.5}
 
   const formatter = new Intl.NumberFormat(locale, { maximumSignificantDigits: 2 })
-  if (result.distance < 0.9) {
+  if (result.distance < result.smallBorder) {
     let distance = result.distance * result.factor
     if (distance < 40) return `< 50 ${result.smallUnit}`
 
