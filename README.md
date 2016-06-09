@@ -1,16 +1,15 @@
-# humanize-distance
+humanize-distance
+====
 
 Calculates a humanized distance between 2 Points (longitude, latitude)
 
 Example outputs: < 50m, 450m, 750yd, 0.9 mi, 2,8 km
 
-## install
+### Usage
+
+```bash
 npm i humanize-distance --save
-
-## test
-npm test
-
-## usage
+```
 
 ```js
 
@@ -32,8 +31,8 @@ console.log(humanizeDistance(
 
 ```
 
-## Contact
+---
 Feedback welcome:
-Twitter: @stockulus
+Twitter: [@stockulus](https://twitter.com/stockulus)
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
