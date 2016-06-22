@@ -32,6 +32,6 @@
   "devDependencies": {
     "faucet": "0.0.1",
     "standard": "7.1.2",
-    "tape": "4.5.1"
+    "tape": "4.6.0"
   }
 }
