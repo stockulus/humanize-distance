@@ -31,7 +31,7 @@ test('coworking space distance', (assert) => {
     'de-DE',
     'metric')
 
-  assert.equal(result, '2,8 km')
+  assert.equal(result, '2,3 km')
   assert.end()
 })
 
@@ -42,7 +42,7 @@ test('coworking space distance in miles', (assert) => {
     'en-US',
     'us')
 
-  assert.equal(result, '1.8 mi')
+  assert.equal(result, '1.4 mi')
   assert.end()
 })
 
@@ -65,5 +65,16 @@ test('underground to coworking space in yards', (assert) => {
     'us')
 
   assert.equal(result, '550 yd')
+  assert.end()
+})
+
+test('Krefeld - Arnsberg', (assert) => {
+  const result = humanizeDistance(
+    {latitude: 51.328911, longitude: 6.559908},
+    {latitude: 51.436333, longitude: 8.009164},
+    'de-DE',
+    'metric')
+
+  assert.equal(result, '100 km')
   assert.end()
 })
