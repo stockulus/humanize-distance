@@ -21,7 +21,7 @@
     "yards",
     "haversine"
   ],
-  "author": "Christoph Stock @stockulus",
+  "author": "Christoph Stock (@stockulus)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/stockulus/humanize-distance/issues"
