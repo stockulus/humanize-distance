@@ -34,5 +34,4 @@ console.log(humanizeDistance(
 ```
 
 ---
----
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&maxAge=2592000)](https://twitter.com/stockulus) [![GitHub stars](https://img.shields.io/github/stars/stockulus/humanize-distance.svg?style=social&label=Star)](https://github.com/stockulus/humanize-distance)
